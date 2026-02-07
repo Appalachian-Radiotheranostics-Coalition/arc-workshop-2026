@@ -208,7 +208,11 @@
       .grid { grid-template-columns: 1fr; }
       .meta { grid-template-columns: 1fr; }
     }
-  </style>
+  
+      .skyline-wrap { padding: 0; overflow: hidden; }
+      .skyline-img { width: 100%; height: auto; display: block; border-radius: 14px; }
+
+</style>
 </head>
 
 <body>
@@ -231,14 +235,14 @@
 
     <div class="hero-right">
       <div class="logo-row">
-        <img class="logo" src="./logo.png" alt="ARC Logo" />
+        <img class="logo" src="logo.png" alt="ARC Logo" />
         <div style="text-align:right">
           <div style="font-weight:800; letter-spacing:.3px;">ARC Workshop #1</div>
           <div style="opacity:.85; font-size:13.5px;">Theranostics: Foundation to Frontline</div>
         </div>
       </div>
 
-      <img class="cover" src="./logo_wide.png" alt="ARC Save the Date Cover" />
+      <img class="cover" src="logo_wide.png" alt="ARC Save the Date Cover" />
 
       <div class="meta">
         <div class="pill"><b>Date</b> April 18, 2026</div>
@@ -314,39 +318,20 @@
         Knoxville, Tennessee
       </p>
 
-      <div class="section">
-        <h2>Registration</h2>
-        <p class="lead">Registration details are coming soon.</p>
-
-        <div class="cta">
-          <a class="btn primary" href="#interest" onclick="document.getElementById('interest').scrollIntoView({behavior:'smooth'}); return false;">
-            Get notified when registration opens
-          </a>
-          <a class="btn" href="mailto:dosborne@utmck.edu?subject=ARC%20Workshop%20Interest%20(4%2F18%2F2026)&body=Please%20notify%20me%20when%20registration%20opens%20for%20ARC%20Workshop%20%231%20on%20April%2018%2C%202026.%0A%0AName%3A%0AOrganization%3A%0ARole%3A%0APhone%3A%0A">
-            Email to request updates
-          </a>
-        </div>
-
-        <p class="note">Tip: replace the email link above with a real registration URL when ready.</p>
-      </div>
-
-      <div class="section" id="interest">
-        <h2>Interest form (placeholder)</h2>
-        <p class="small">Until registration is live, you can collect interest with a simple Google Form / Qualtrics link.</p>
-        <div style="background:#fbfcfe;border:1px dashed rgba(18,32,54,.2);border-radius:14px;padding:12px;">
-          <div style="font-weight:800;color:var(--navy);">Add your form link here</div>
-          <div class="small" style="margin-top:6px;">Example: https://forms.gle/your-arc-workshop-interest-form</div>
-        </div>
-      </div>
-
-      <div class="section">
+<div class="section">
         <h2>Contact</h2>
         <p class="small">
           Questions or partnership interest:<br/>
           <a href="mailto:dosborne@utmck.edu">dosborne@utmck.edu</a>
         </p>
       </div>
-    </aside>
+
+
+            <div class="section skyline-wrap">
+        <img src="skyline.png" alt="Knoxville skyline" class="skyline-img"/>
+      </div>
+
+</aside>
   </div>
 </main>
 

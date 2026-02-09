@@ -74,20 +74,33 @@
       border-radius: var(--radius);
       padding: 18px;
     }
-    .logo-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 14px;
-      margin-bottom: 12px;
-    }
-    .logo {
-      height: 54px;
-      width: auto;
-      border-radius: 10px;
-      background: rgba(255,255,255,.92);
-      padding: 6px 10px;
-    }
+  .logo-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:14px;
+    margin-bottom:12px;
+  }
+
+  .logo-pair{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+
+  .logo{
+    height:54px;
+    width:auto;
+    border-radius:10px;
+    background:rgba(255,255,255,.92);
+    padding:6px 10px;
+  }
+
+  /* Optional: make Mars Shot logo a touch smaller or remove padding if it looks odd */
+  .logo.mars{
+    height:48px;
+    padding:6px 8px;
+  }
     .cover {
       width: 100%;
       border-radius: 14px;
@@ -229,26 +242,30 @@
 
       <h1>Inaugural ARC Workshop</h1>
       <p class="sub">
-        A full-day, practical workshop focused on building <b>theranostics / targeted radiopharmaceutical therapy (TRT)</b> readiness for community programs.
+        A full-day, practical workshop designed to increase education and awareness while building theranostics and targeted radiopharmaceutical therapy (TRT) readiness for community-based programs.
       </p>
     </div>
 
     <div class="hero-right">
-      <div class="logo-row">
-        <img class="logo" src="./logo.png" alt="ARC Logo" />
-        <div style="text-align:right">
-          <div style="font-weight:800; letter-spacing:.3px;">ARC Workshop #1</div>
-          <div style="opacity:.85; font-size:13.5px;">Theranostics: Foundation to Frontline</div>
-        </div>
-      </div>
+<div class="logo-row">
+  <div class="logo-pair">
+    <img class="logo" src="./logo.png" alt="ARC Logo" />
+    <img class="logo mars" src="./mars.png" alt="SNMMI Mars Shot Logo" />
+  </div>
 
-      <img class="cover" src="./logo_wide.png" alt="ARC Save the Date Cover" />
+  <div style="text-align:right">
+    <div style="font-weight:800; letter-spacing:.3px;">ARC Workshop #1</div>
+    <div style="opacity:.85; font-size:13.5px;">Theranostics: Foundation to Frontline</div>
+  </div>
+</div>
 
+
+      <img class="cover" src="./arcsavethedate.png" alt="ARC Save the Date Cover" />
       <div class="meta">
-        <div class="pill"><b>Date</b> April 18, 2026</div>
+       <!-- <div class="pill"><b>Date</b> April 18, 2026</div>
         <div class="pill"><b>Time</b> 8:00 AM – 5:00 PM</div>
         <div class="pill"><b>Venue</b> UT Medical Center</div>
-        <div class="pill"><b>Room</b> Wood Auditorium</div>
+        <div class="pill"><b>Room</b> Wood Auditorium</div>-->
       </div>
     </div>
   </div>
@@ -259,8 +276,7 @@
     <section class="card">
       <h2>What to expect</h2>
       <p class="lead">
-        ARC Workshop #1 combines foundational instruction with hands-on practice and team-based simulation.
-        Content is designed for sites building or expanding theranostics services, with a focus on operational readiness and reliable workflows.
+        ARC Workshop #1 is designed to increase education and awareness while combining foundational instruction with hands-on practice and team-based simulation. The content supports sites interested in building or expanding theranostics services, with an emphasis on operational readiness and reliable, repeatable workflows.
       </p>
 
       <ul class="kps">
@@ -272,7 +288,7 @@
       <div class="section">
         <h2>Materials provided</h2>
         <ul class="kps">
-          <li>ARC Core Curriculum (print + digital)</li>
+          <li>ARC Core Curriculum (print/digital)</li>
           <li>Sample TRT patient workflow protocols</li>
           <li>ARC Online Learning Platform access</li>
           <li>Pre- and post-training assessments</li>
@@ -294,7 +310,7 @@
           </ul>
         </details>
 
-        <details>
+        <details  open>
           <summary>Afternoon Session (12:00 PM – 5:00 PM) — Hands-On Skills & Simulation</summary>
           <ul class="agenda">
             <li>Working lunch + interactive case review</li>
@@ -305,7 +321,7 @@
         </details>
 
         <p class="small" style="margin-top:10px;">
-          Detailed schedule and registration link will be posted here when available.
+          Detailed schedule and registration link will be sent out and posted here when available.
         </p>
       </div>
     </section>
@@ -317,6 +333,29 @@
         <b>Wood Auditorium</b><br/>
         Knoxville, Tennessee
       </p>
+
+<div class="section">
+  <h2>Host Institutions</h2>
+  <p class="small">
+    <strong>Dustin Osborne, PhD, DABSNM, DABR</strong><br/>
+    University of Tennessee Graduate School of Medicine / University of Tennessee Medical Center
+  </p>
+  <p class="small" style="margin-top:8px;">
+    <strong>James Crowley, BS, CNMT</strong><br/>
+    Carilion Clinic
+  </p>
+
+<p class="small" style="margin-top:12px;color:#5d6673;">
+  This workshop is supported by the <strong>SNMMI Mars Shot™</strong> initiative.
+  <br/>
+  <a href="https://giving.snmmi.org/campaign/mars-shot/c421030" target="_blank" rel="noopener">
+    Learn more about or support the Mars Shot initiative →
+  </a>
+</p>
+
+
+</div>
+
 
 <div class="section">
         <h2>Contact</h2>

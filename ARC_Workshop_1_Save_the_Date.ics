@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ARC//ARC Workshop #1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:arc-workshop-1-20260418@arc
+DTSTAMP:20260209T150000Z
+DTSTART:20260418T120000Z
+DTEND:20260418T210000Z
+SUMMARY:ARC Workshop #1 — Theranostics: Foundation to Frontline
+LOCATION:UT Medical Center, Wood Auditorium, Knoxville, TN
+DESCRIPTION:A full-day practical workshop designed to increase education and awareness while building theranostics/TRT readiness for community-based programs.
+END:VEVENT
+END:VCALENDAR
